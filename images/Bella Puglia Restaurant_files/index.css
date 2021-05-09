@@ -217,7 +217,7 @@ h3#menuHeader {
 #wednesdaySpecial {
   display: none;
 }
-#thursdaySpecial {
+#thurdsaySpecial {
   display: none;
 }
 #fridaySpecial {
@@ -228,9 +228,4 @@ h3#menuHeader {
 }
 #sundaySpecial {
   display: none;
-  margin-bottom: 50px;
-}
-#longer {
-  color: white;
-  font-size: 80px;
 }

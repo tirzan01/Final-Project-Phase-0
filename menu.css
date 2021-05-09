@@ -1,0 +1,16 @@
+* {
+  margin: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+h1 {
+  color: red;
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+}
+h2 {
+  font-size: 35px;
+}
+p {
+  font-size: 20px;
+}

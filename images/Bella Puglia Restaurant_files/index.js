@@ -8,7 +8,7 @@ sundayButt = document.getElementById('Sunday'),
 mondaySpecial = document.getElementById('mondaySpecial'),
 tuesdaysSpecial = document.getElementById('tuesdaysSpecial'),
 wednesdaySpecial = document.getElementById('wednesdaySpecial'),
-thursdaySpecial = document.getElementById('thursdaySpecial'),
+thurdsaySpecial = document.getElementById('thurdsaySpecial'),
 fridaySpecial = document.getElementById('fridaySpecial'),
 saturdaySpecial = document.getElementById('saturdaySpecial'),
 sundaySpecial = document.getElementById('sundaySpecial')
@@ -21,7 +21,6 @@ mondayButt.addEventListener('click', function(){
         mondaySpecial.style.display='none';
     }
 });
-
 tuesdayButt.addEventListener('click', function(){
     if(tuesdaysSpecial.style.display==='none'){
         tuesdaysSpecial.style.display='block'
@@ -29,7 +28,6 @@ tuesdayButt.addEventListener('click', function(){
         tuesdaysSpecial.style.display='none'
     }
 });
-
 wednesdayButt.addEventListener('click', function(){
     if(wednesdaySpecial.style.display==='none'){
         wednesdaySpecial.style.display='block'
@@ -37,48 +35,25 @@ wednesdayButt.addEventListener('click', function(){
         wednesdaySpecial.style.display='none'
     }
 });
-
-
-
-fridayButt.addEventListener('click', function(){
-    if(fridaySpecial.style.display==='none'){
-        fridaySpecial.style.display='block'
+thurdsaySpecial.addEventListener('click', function(){
+    if(thurdsaySpecial.style.display==='none'){
+        thurdsaySpecial.style.display='block'
     }else{
-        fridaySpecial.style.display='none'
-    }
-})
-saturdayButt.addEventListener('click', function(){
-    if(saturdaySpecial.style.display='none'){
-        saturdaySpecial.style.display='block'
-    }else{
-        saturdaySpecial.style.display='none'
-    }
-})
-sundayButt.addEventListener('click', function(){
-    if(sundaySpecial.style.display==='none'){
-sundaySpecial.style.display='block'
-    }else{
-        sundaySpecial.style.display='none'
+        thurdsaySpecial.style.display='none'
     }
 })
 
 
 
 
-thursdaySpecial.addEventListener('click', function(){
-    if(thursdaySpecial.style.display==='none'){
-        thursdaySpecial.style.display='block'
+
+
+
+
+btn.addEventListener('click', function(){
+    if(div.style.display==='none'){
+        div.style.display='block';
     }else{
-        thursdaySpecial.style.display='none'
+        div.style.display='none';
     }
-});
-
-
-
-// btn.addEventListener('click', function(){
-//     if(div.style.display==='none'){
-//         div.style.display='block';
-//     }else{
-//         div.style.display='none';
-//     }
-// })
+})
