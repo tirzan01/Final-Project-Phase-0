@@ -2,8 +2,29 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
 }
-.flexbox1 {
+body {
+  /* background-color: yellow; */
+  background-repeat: no-repeat;
+  background-position: center;
+}
+p {
+  min-width: 400px;
+}
+img {
+  min-width: 500px;
+}
+h3 {
+  color: red;
+  font-weight: lighter;
+  text-align: center;
+  font-size: 35px;
+  padding-top: 50px;
+  font-weight: bold;
+}
+.inPageLink {
   padding: 5px;
   background: black;
   display: flex;
@@ -12,6 +33,12 @@
   position: fixed;
   left: 0;
   right: 0;
+}
+.inPageLink a:link {
+  color: white;
+}
+.inPageLink a:visited {
+  color: white;
 }
 .section {
   min-height: fit-content;
@@ -34,28 +61,125 @@
 .sec5 {
   color: black;
 }
-h3 {
-  color: red;
-  font-weight: lighter;
+#header {
+  font-size: 60px;
+  border: 50px;
+  padding: 100px;
   text-align: center;
-  font-size: 35px;
-  padding-top: 50px;
+}
+#aboutUs {
+  align-items: center;
+  display: flex;
+}
+img#aboutUsImg {
+  margin-top: 50px;
+  padding: 20px;
+  width: 40%;
+  height: 40%;
+  border-radius: 40px;
+}
+#aboutUsText {
+  padding: 18px;
+  text-align: left;
+  max-width: 850px;
+  margin: 50px;
+  border-radius: 100px;
+}
+h3#aboutUsHeader {
+  text-align: left;
+  background-color: white;
+  padding: 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+div p#aboutUsParagraph {
+  padding: 20px;
+  background-color: white;
+  font-size: 30px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  text-align: center;
+}
+#menu {
+  display: flex;
+  align-items: center;
+}
+#menuimg {
+  width: 700px;
+  margin: 50px;
+  border-radius: 40px;
+}
+#menuText {
+  background-color: white;
+  width: 900px;
+  border-radius: 20px;
+  align-content: flex-start;
+}
+h3#menuHeader {
+  text-align: left;
+  margin-left: 50px;
+}
+.menuParagraph {
+  padding: 100;
+  padding: 20px;
+  background-color: white;
+  font-size: 30px;
+  text-align: center;
+}
+#details {
+  display: flex;
+  flex-wrap: initial;
+  background-color: white;
+  margin: 50px;
+  border-radius: 50px;
+  flex-wrap: nowrap;
+}
+#openingHours {
+  margin-left: 500px;
+  display: flex;
+  padding: 20px;
+  font-size: 30px;
+  border-bottom-left-radius: 20px;
+  border-radius: 20px;
+  margin: 50px;
+}
+#detailsimg {
+  margin-left: 20px;
+  width: 600px;
+  height: auto;
+  padding: 30px;
+  border-radius: 70px;
 }
 
-h1 {
-  border: 50px;
+#trading {
+  margin-left: 20px;
+}
+.contactUsDetail {
+  font-size: 25px;
+  padding: 15px;
   text-align: center;
-  background-color: white;
-  padding: 40px;
 }
-body {
-  background-color: yellow;
-  background-repeat: no-repeat;
-  background-position: center;
+@media only screen and (max-width: 1024px) {
+  #details {
+    flex-wrap: wrap;
+  }
+  #trading {
+    margin-left: 50px;
+  }
+  #detailsimg {
+    margin-left: 50px;
+    width: 700px;
+    height: auto;
+    padding: 50px;
+    border-radius: 70px;
+  }
 }
-.flexbox1 a:link {
-  color: white;
-}
-.flexbox1 a:visited {
-  color: white;
+@media only screen and (max-width: 450px) {
+  #header {
+    padding: 0px;
+    padding-top: 50px;
+    border: 0px;
+    border-left: 20px;
+    margin-left: 50px;
+  }
 }
