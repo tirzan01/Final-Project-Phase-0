@@ -1,0 +1,61 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.flexbox1 {
+  padding: 5px;
+  background: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  position: fixed;
+  left: 0;
+  right: 0;
+}
+.section {
+  min-height: fit-content;
+  margin: 4px;
+  border: 1px solid gray;
+}
+.sec1 {
+  color: black;
+  background-color: black;
+}
+.sec2 {
+  columns: black;
+}
+.sec3 {
+  color: black;
+}
+.sec4 {
+  color: black;
+}
+.sec5 {
+  color: black;
+}
+h3 {
+  color: red;
+  font-weight: lighter;
+  text-align: center;
+  font-size: 35px;
+  padding-top: 50px;
+}
+
+h1 {
+  border: 50px;
+  text-align: center;
+  background-color: white;
+  padding: 40px;
+}
+body {
+  background-color: yellow;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.flexbox1 a:link {
+  color: white;
+}
+.flexbox1 a:visited {
+  color: white;
+}
